@@ -12,9 +12,9 @@ public class BinTree {
 		BTNode<Integer> n7 = new BTNode<Integer>(700, null, null);
 		BTNode<Integer> n8 = new BTNode<Integer>(800, null, null);
 		
-		n1.setLeft(n2);	n1.setLeft(n3);
-		n2.setLeft(n4);	n2.setLeft(n5);
-		n3.setLeft(n6);	n3.setLeft(n7);
+		n1.setLeft(n2);	n1.setRight(n3);
+		n2.setLeft(n4);	n2.setRight(n5);
+		n3.setLeft(n6);	n3.setRight(n7);
 		n4.setLeft(n8);
 		
 		BinaryTree<Integer> t = new BinaryTree<Integer>();
@@ -40,9 +40,9 @@ public class BinTree {
 		BTNode<Integer> n70 = new BTNode<Integer>(100, null, null);
 		BTNode<Integer> n80 = new BTNode<Integer>(100, null, null);
 		
-		n10.setLeft(n20);	n10.setLeft(n30);
-		n20.setLeft(n40);	n20.setLeft(n50);
-		n30.setLeft(n60);	n30.setLeft(n70);
+		n10.setLeft(n20);	n10.setRight(n30);
+		n20.setLeft(n40);	n20.setRight(n50);
+		n30.setLeft(n60);	n30.setRight(n70);
 		n40.setLeft(n80);
 		
 		BinaryTree<Integer> t2 = new BinaryTree<Integer>();
